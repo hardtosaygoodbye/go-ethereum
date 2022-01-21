@@ -25,11 +25,11 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/console/prompt"
-	"github.com/ethereum/go-ethereum/p2p/dnsdisc"
-	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/hardtosaygoodbye/go-ethereum/accounts/keystore"
+	"github.com/hardtosaygoodbye/go-ethereum/common"
+	"github.com/hardtosaygoodbye/go-ethereum/console/prompt"
+	"github.com/hardtosaygoodbye/go-ethereum/p2p/dnsdisc"
+	"github.com/hardtosaygoodbye/go-ethereum/p2p/enode"
 	"gopkg.in/urfave/cli.v1"
 )
 

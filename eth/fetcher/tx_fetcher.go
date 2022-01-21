@@ -25,12 +25,12 @@ import (
 	"time"
 
 	mapset "github.com/deckarep/golang-set"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/hardtosaygoodbye/go-ethereum/common"
+	"github.com/hardtosaygoodbye/go-ethereum/common/mclock"
+	"github.com/hardtosaygoodbye/go-ethereum/core"
+	"github.com/hardtosaygoodbye/go-ethereum/core/types"
+	"github.com/hardtosaygoodbye/go-ethereum/log"
+	"github.com/hardtosaygoodbye/go-ethereum/metrics"
 )
 
 const (

@@ -29,16 +29,16 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/p2p/nat"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
+	"github.com/hardtosaygoodbye/go-ethereum/common"
+	"github.com/hardtosaygoodbye/go-ethereum/common/mclock"
+	"github.com/hardtosaygoodbye/go-ethereum/crypto"
+	"github.com/hardtosaygoodbye/go-ethereum/event"
+	"github.com/hardtosaygoodbye/go-ethereum/log"
+	"github.com/hardtosaygoodbye/go-ethereum/p2p/discover"
+	"github.com/hardtosaygoodbye/go-ethereum/p2p/enode"
+	"github.com/hardtosaygoodbye/go-ethereum/p2p/enr"
+	"github.com/hardtosaygoodbye/go-ethereum/p2p/nat"
+	"github.com/hardtosaygoodbye/go-ethereum/p2p/netutil"
 )
 
 const (

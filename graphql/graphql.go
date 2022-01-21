@@ -24,15 +24,15 @@ import (
 	"math/big"
 	"strconv"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/filters"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/hardtosaygoodbye/go-ethereum"
+	"github.com/hardtosaygoodbye/go-ethereum/common"
+	"github.com/hardtosaygoodbye/go-ethereum/common/hexutil"
+	"github.com/hardtosaygoodbye/go-ethereum/common/math"
+	"github.com/hardtosaygoodbye/go-ethereum/core/state"
+	"github.com/hardtosaygoodbye/go-ethereum/core/types"
+	"github.com/hardtosaygoodbye/go-ethereum/eth/filters"
+	"github.com/hardtosaygoodbye/go-ethereum/internal/ethapi"
+	"github.com/hardtosaygoodbye/go-ethereum/rpc"
 )
 
 var (

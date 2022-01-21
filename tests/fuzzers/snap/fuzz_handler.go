@@ -23,17 +23,17 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/protocols/snap"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
 	fuzz "github.com/google/gofuzz"
+	"github.com/hardtosaygoodbye/go-ethereum/common"
+	"github.com/hardtosaygoodbye/go-ethereum/consensus/ethash"
+	"github.com/hardtosaygoodbye/go-ethereum/core"
+	"github.com/hardtosaygoodbye/go-ethereum/core/rawdb"
+	"github.com/hardtosaygoodbye/go-ethereum/core/vm"
+	"github.com/hardtosaygoodbye/go-ethereum/eth/protocols/snap"
+	"github.com/hardtosaygoodbye/go-ethereum/p2p"
+	"github.com/hardtosaygoodbye/go-ethereum/p2p/enode"
+	"github.com/hardtosaygoodbye/go-ethereum/params"
+	"github.com/hardtosaygoodbye/go-ethereum/rlp"
 )
 
 var trieRoot common.Hash

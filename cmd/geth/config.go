@@ -27,17 +27,17 @@ import (
 
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/ethereum/go-ethereum/accounts/external"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/accounts/scwallet"
-	"github.com/ethereum/go-ethereum/accounts/usbwallet"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/hardtosaygoodbye/go-ethereum/accounts/external"
+	"github.com/hardtosaygoodbye/go-ethereum/accounts/keystore"
+	"github.com/hardtosaygoodbye/go-ethereum/accounts/scwallet"
+	"github.com/hardtosaygoodbye/go-ethereum/accounts/usbwallet"
+	"github.com/hardtosaygoodbye/go-ethereum/cmd/utils"
+	"github.com/hardtosaygoodbye/go-ethereum/eth/ethconfig"
+	"github.com/hardtosaygoodbye/go-ethereum/internal/ethapi"
+	"github.com/hardtosaygoodbye/go-ethereum/log"
+	"github.com/hardtosaygoodbye/go-ethereum/metrics"
+	"github.com/hardtosaygoodbye/go-ethereum/node"
+	"github.com/hardtosaygoodbye/go-ethereum/params"
 	"github.com/naoina/toml"
 )
 

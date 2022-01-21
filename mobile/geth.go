@@ -24,17 +24,17 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/ethereum/go-ethereum/ethstats"
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/les"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/nat"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/hardtosaygoodbye/go-ethereum/core"
+	"github.com/hardtosaygoodbye/go-ethereum/eth/downloader"
+	"github.com/hardtosaygoodbye/go-ethereum/eth/ethconfig"
+	"github.com/hardtosaygoodbye/go-ethereum/ethclient"
+	"github.com/hardtosaygoodbye/go-ethereum/ethstats"
+	"github.com/hardtosaygoodbye/go-ethereum/internal/debug"
+	"github.com/hardtosaygoodbye/go-ethereum/les"
+	"github.com/hardtosaygoodbye/go-ethereum/node"
+	"github.com/hardtosaygoodbye/go-ethereum/p2p"
+	"github.com/hardtosaygoodbye/go-ethereum/p2p/nat"
+	"github.com/hardtosaygoodbye/go-ethereum/params"
 )
 
 // NodeConfig represents the collection of configuration values to fine tune the Geth

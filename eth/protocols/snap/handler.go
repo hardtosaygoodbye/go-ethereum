@@ -21,17 +21,17 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/light"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/hardtosaygoodbye/go-ethereum/common"
+	"github.com/hardtosaygoodbye/go-ethereum/core"
+	"github.com/hardtosaygoodbye/go-ethereum/core/types"
+	"github.com/hardtosaygoodbye/go-ethereum/light"
+	"github.com/hardtosaygoodbye/go-ethereum/log"
+	"github.com/hardtosaygoodbye/go-ethereum/metrics"
+	"github.com/hardtosaygoodbye/go-ethereum/p2p"
+	"github.com/hardtosaygoodbye/go-ethereum/p2p/enode"
+	"github.com/hardtosaygoodbye/go-ethereum/p2p/enr"
+	"github.com/hardtosaygoodbye/go-ethereum/rlp"
+	"github.com/hardtosaygoodbye/go-ethereum/trie"
 )
 
 const (

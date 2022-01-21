@@ -26,13 +26,13 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/hardtosaygoodbye/go-ethereum/accounts"
+	"github.com/hardtosaygoodbye/go-ethereum/core/rawdb"
+	"github.com/hardtosaygoodbye/go-ethereum/ethdb"
+	"github.com/hardtosaygoodbye/go-ethereum/event"
+	"github.com/hardtosaygoodbye/go-ethereum/log"
+	"github.com/hardtosaygoodbye/go-ethereum/p2p"
+	"github.com/hardtosaygoodbye/go-ethereum/rpc"
 	"github.com/prometheus/tsdb/fileutil"
 )
 

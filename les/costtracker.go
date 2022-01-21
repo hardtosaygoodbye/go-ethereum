@@ -23,12 +23,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/les/flowcontrol"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/hardtosaygoodbye/go-ethereum/common/mclock"
+	"github.com/hardtosaygoodbye/go-ethereum/eth/ethconfig"
+	"github.com/hardtosaygoodbye/go-ethereum/ethdb"
+	"github.com/hardtosaygoodbye/go-ethereum/les/flowcontrol"
+	"github.com/hardtosaygoodbye/go-ethereum/log"
+	"github.com/hardtosaygoodbye/go-ethereum/metrics"
 )
 
 const makeCostStats = false // make request cost statistics during operation

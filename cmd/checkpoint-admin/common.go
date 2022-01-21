@@ -19,15 +19,15 @@ package main
 import (
 	"strconv"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/accounts/external"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/contracts/checkpointoracle"
-	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/hardtosaygoodbye/go-ethereum/accounts"
+	"github.com/hardtosaygoodbye/go-ethereum/accounts/abi/bind"
+	"github.com/hardtosaygoodbye/go-ethereum/accounts/external"
+	"github.com/hardtosaygoodbye/go-ethereum/cmd/utils"
+	"github.com/hardtosaygoodbye/go-ethereum/common"
+	"github.com/hardtosaygoodbye/go-ethereum/contracts/checkpointoracle"
+	"github.com/hardtosaygoodbye/go-ethereum/ethclient"
+	"github.com/hardtosaygoodbye/go-ethereum/params"
+	"github.com/hardtosaygoodbye/go-ethereum/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

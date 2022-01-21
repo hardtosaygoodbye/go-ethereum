@@ -21,14 +21,14 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/misc"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/hardtosaygoodbye/go-ethereum/common"
+	"github.com/hardtosaygoodbye/go-ethereum/consensus"
+	"github.com/hardtosaygoodbye/go-ethereum/consensus/misc"
+	"github.com/hardtosaygoodbye/go-ethereum/core/state"
+	"github.com/hardtosaygoodbye/go-ethereum/core/types"
+	"github.com/hardtosaygoodbye/go-ethereum/params"
+	"github.com/hardtosaygoodbye/go-ethereum/rpc"
+	"github.com/hardtosaygoodbye/go-ethereum/trie"
 )
 
 // Proof-of-stake protocol constants.
