@@ -205,8 +205,7 @@ func (tx *rpcTransaction) UnmarshalJSON(msg []byte) error {
 }
 
 // TransactionByHash returns the transaction with the given hash.
-func (ec *Client) TransactionByHash(ctx context.Context, hash common.Hash) (tx *types.Transaction, isPending bool, err error) {
-	var json *rpcTransaction
+func (ec *Client) TransactionByHash(ctx context.Context, hash common.Hash) (json *rpcTransaction, isPending bool, err error) {
 	err = ec.c.CallContext(ctx, &json, "eth_getTransactionByHash", hash)
 	if err != nil {
 		return nil, false, err
@@ -218,7 +217,7 @@ func (ec *Client) TransactionByHash(ctx context.Context, hash common.Hash) (tx *
 	if json.From != nil && json.BlockHash != nil {
 		setSenderFromServer(json.tx, *json.From, *json.BlockHash)
 	}
-	return json.tx, json.BlockNumber == nil, nil
+	return json, json.BlockNumber == nil, nil
 }
 
 // TransactionSender returns the sender address of the given transaction. The transaction
